@@ -1,0 +1,21 @@
+.navbar
+{
+    background-color:white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+body
+{
+background-image: url("Photo.jpg");
+background-size: cover;
+}
+
+.nav-link
+{
+margin-left: 600%;
+} 
+h1
+{
+    color: aliceblue;
+    text-align: center  ;
+}
