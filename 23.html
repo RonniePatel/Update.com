@@ -1,0 +1,162 @@
+<html> 
+<head> 
+<title>Creating a Form </title> 
+<style> td { border:2px solid #07adbd; border-radius: 6px; padding-top:0.5em; padding-bottom: .5em; padding-left: 2rem; 
+} body{ background-image: linear-gradient(to bottom right,rgb(31, 31, 
+31),#8c2ff0,rgb(31,31,31),#07adbd,#a02dbf,rgb(31,31,31)); 
+} table{ border-radius: 20px; width:70%; ; margin: auto; background-color: #f1eff1;  border: 2px solid rgb(226, 195, 195); border-radius: 20px; 
+} h2{ color:#fff; margin-bottom: -6px; 
+} 
+#SUBMIT{ 
+            background-image: linear-gradient(to right, #07adbd, #a02dbf);             border: none;             border-radius: 8px;             font-weight: 700;             letter-spacing: 1.5px;             font-size: medium;             color: #fff;             width: 30%; 
+            padding: 5px; 
+} 
+</style> 
+</head> 
+<body> 
+<center> 
+<table style="margin-left:13em;"> 
+<tbody> 
+<h2>Registration Form</h2> 
+<hr> 
+<form action="D:\webdevelment_collage\practicals\practical-5.html" method="post"> 
+<tr> 
+<td> 
+<label for="Frname">First Name:</label> 
+</td> 
+<td> 
+<input type="text" id="Frname" required="true"> 
+</td> 
+</tr> 
+<tr> 
+<td> 
+<label for="Mdname">Mid Name:</label> 
+</td> 
+<td><input type="text" id="Mdname" required="true"></td> 
+</tr> 
+<tr> 
+<td> 
+<label for="Lsname">Last Name:</label> 
+</td> 
+<td> 
+<input type="text" id="Lsname" required="true"> 
+</td> 
+</tr> 
+<tr> 
+<td> 
+<label for="phone">Phone No:</label> 
+</td> 
+<td> 
+<input type="number" id="phone" required="true"> 
+</td> 
+</tr> 
+<tr> 
+<td> 
+<label>Gender:</label> 
+</td> 
+<td> 
+<input type="radio" name="gender" required="true" id="M"> 
+<label for="M">Male:</label> 
+<input type="radio" name="gender" required="true" id="F"> 
+<label for="F">Female:</label> 
+<input type="radio" name="gender" required="true" id="O"> 
+<label for="O">Other</label> 
+</td> 
+</tr> 
+<tr> 
+<td> 
+<label for="Mail">Email:</label> 
+</td> 
+<td> 
+<input type="email" id="Mail" required="true"> 
+</td> 
+</tr> 
+<tr> 
+<td> 
+<label for="Hobbies">Hobbies:</label> 
+</td> 
+<td> 
+<label>cricket:</label> 
+<input type="checkbox" name="hbs" id="Hobbies"> 
+<label>Chess:</label> 
+<input type="checkbox" name="hbs" id="Hobbies"> 
+<label>VollyBall:</label> 
+<input type="checkbox" name="hbs" id="Hobbies"> 
+<label>Football:</label> 
+<input type="checkbox" name="hbs" id="Hobbies"> 
+<label>BaseBall:</label> 
+<input type="checkbox" name="hbs" id="Hobbies"> 
+</td> 
+</tr> 
+<tr> 
+<td> 
+<p>Country</p> 
+</td> 
+<td> 
+<select name="country"> 
+<option value="india">India</option> 
+<option value="us">US</option> 
+<option value="Aus">Australia</option> 
+</select> 
+</td> 
+</tr> 
+<tr> 
+<td> 
+<p>State</p> 
+</td> 
+<td> 
+<select name="state"> 
+<option value="gujrat">Gujarat</option> 
+<option value="Goa">Goa</option> 
+<option value="UK">UK</option> 
+</select> 
+</td> 
+</tr> 
+<tr> 
+<td> 
+<p>City</p> 
+</td> 
+<td> 
+<select name="City"> 
+<option value="Mumbai">Mumbai</option> 
+<option value="Ahmedabad">Ahmedabad</option> 
+<option value="Vadodara">Vadodara</option> 
+</select> 
+</td> 
+</tr> 
+<tr> 
+<td> 
+<p>Collage</p> 
+</td> 
+<td> 
+<select name="Collage"> 
+<option value="PU">PU</option> 
+<option value="MSU">MSU</option> 
+<option value="GSFC">GSFC</option> 
+</select> 
+</td> 
+</tr> 
+<tr> 
+<td> 
+<p style="display:inline">Address:</p> 
+</td> 
+<td> 
+<textarea name="Address" id="AD" cols="30" rows="10"></textarea> 
+</td> 
+</tr> 
+<tr> 
+<td colspan="2" style="padding-top:0.7em; padding-bottom: .5em; padding-left: 2rem;"> 
+<center> 
+<input id="SUBMIT" type="submit" value="submit" onclick="alert('Your Data has Been Submited')"> </center> 
+</td> 
+</tr> 
+</form> 
+</tbody> 
+</table> 
+</center> 
+</body> 
+</html> 
+ 
+
+
+
